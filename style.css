@@ -1,0 +1,98 @@
+/***********************************
+************* GENERAL **************/
+h3 {
+  color: #222222;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+}
+
+p {
+  color: #222222;
+  font-size: 14px !important;
+}
+
+
+/***********************************
+************** MAIN ****************/
+.content-wrapper .row {
+  background-color: #F6F6F7;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.main-container {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.main-container img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+button.cart.btn.btn-primary {
+  color: #888888;
+  line-height: 1.5em;
+  text-align: right;
+  font-size: 14px;
+  text-decoration: none;
+  background: none;
+  border: 0;
+}
+
+p.price {
+  font-weight: 500 !important;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+p.desc {
+  color: #888888;
+  line-height: 1.5em;
+  padding-bottom: 20px;
+}
+
+p.size {
+  color: #888888;
+  line-height: 1.5em;
+}
+
+p.size span {
+  color: #C90000;
+}
+
+p.var {
+  color: #888888;
+  padding: 5px 0 15px;
+}
+
+p.var span {
+  border: 1px solid #888888;
+  padding: 10px 15px;
+}
+
+a.add-to-cart {
+  padding: 7px 17px;
+  border: 2px solid #222222;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #222222;
+  text-decoration: none
+}
+
+a.add-to-cart:hover {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+/***********************************
+************** MEDIA ***************/
+@media (max-width: 768px) {
+
+  .col-md-6 {
+    width: 100% !important;
+  }
+  
+}
